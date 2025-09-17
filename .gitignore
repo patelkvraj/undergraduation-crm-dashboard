@@ -1,0 +1,8 @@
+# Virtual environment
+venv/
+# Node modules
+node_modules/
+# Build artifacts
+build/
+dist/
+.env
