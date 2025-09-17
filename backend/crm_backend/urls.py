@@ -27,10 +27,8 @@ from students.views import (
 
 # Create a router to automatically generate URL patterns for our ViewSets
 router = DefaultRouter()
-router.register(r"students", StudentViewSet)
-router.register(
-    r"student-profiles", StudentProfileViewSet
-)  # We'll use this for the individual profile view
+router.register(r"students", StudentViewSet, basename="student")
+router.register(r"student-profiles", StudentProfileViewSet, basename="student-profiles")
 router.register(r"interactions", InteractionViewSet)
 router.register(r"notes", InternalNoteViewSet)
 
