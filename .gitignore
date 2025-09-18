@@ -1,8 +1,7 @@
-# Virtual environment
-venv/
-# Node modules
-node_modules/
-# Build artifacts
-build/
-dist/
+# Node.js
+/node_modules
+npm-debug.log
 .env
+
+# Firebase Service Account
+backend/serviceAccountKey.json
